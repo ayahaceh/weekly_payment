@@ -35,9 +35,9 @@
                       <td><?= $b['tgl_pengiriman'] ?></td>
                       <td><?= $b['alamat_pengiriman'] ?></td>
                       <td>
-                        <?= anchor('data_barang/view_data_barang/' . $b['id_pembelian'], '<i class="fa fa-eye"></i>', 'class="btn btn-success btn-sm"') ?>
-                        <?= anchor('data_barang/edit_data_barang/' . $b['id_pembelian'], '<i class="fa fa-edit"></i>', 'class="btn btn-warning btn-sm"') ?>
-                        <?= anchor('data_barang/delete_data_barang/' . $b['id_pembelian'], '<i class="fa fa-trash"></i>', 'class="btn btn-danger btn-sm"') ?>
+                        <?= anchor('pembelian/tambah_detail/' . $b['id_pembelian'], '<i class="fa fa-eye"></i>', 'class="btn btn-success btn-sm"') ?>
+                        <?= anchor('pembelian/tambah_detail/' . $b['id_pembelian'], '<i class="fa fa-edit"></i>', 'class="btn btn-warning btn-sm"') ?>
+                        <?= anchor('pembelian/tambah_detail/' . $b['id_pembelian'], '<i class="fa fa-trash"></i>', 'class="btn btn-danger btn-sm"') ?>
                       </td>
                     </tr>
                   <?php

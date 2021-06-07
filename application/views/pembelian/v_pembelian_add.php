@@ -69,7 +69,7 @@
 
           <div class="box-footer">
             <div class="pull-right">
-              <?= anchor('costumer', 'Kembali', ' class="btn btn-default "') ?>
+              <?= anchor('pembelian', 'Kembali', ' class="btn btn-default "') ?>
               <button type="submit" class="btn btn-primary">Submit</button>
             </div>
           </div>
