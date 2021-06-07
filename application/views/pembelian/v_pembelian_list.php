@@ -31,13 +31,13 @@
                       <td><?= $b['tgl_pembelian'] ?></td>
                       <td><?= $b['kode_faktur'] ?></td>
                       <td><?= $b['nama_supplier'] ?></td>
-                      <td>300.000,00</td>
+                      <td><?= $b['jumlah_faktur'] ?></td>
                       <td><?= $b['tgl_pengiriman'] ?></td>
                       <td><?= $b['alamat_pengiriman'] ?></td>
                       <td>
-                        <?= anchor('data_barang/view_data_barang/' . $b['id'], '<i class="fa fa-eye"></i>', 'class="btn btn-success btn-sm"') ?>
-                        <?= anchor('data_barang/edit_data_barang/' . $b['id'], '<i class="fa fa-edit"></i>', 'class="btn btn-warning btn-sm"') ?>
-                        <?= anchor('data_barang/delete_data_barang/' . $b['id'], '<i class="fa fa-trash"></i>', 'class="btn btn-danger btn-sm"') ?>
+                        <?= anchor('data_barang/view_data_barang/' . $b['id_pembelian'], '<i class="fa fa-eye"></i>', 'class="btn btn-success btn-sm"') ?>
+                        <?= anchor('data_barang/edit_data_barang/' . $b['id_pembelian'], '<i class="fa fa-edit"></i>', 'class="btn btn-warning btn-sm"') ?>
+                        <?= anchor('data_barang/delete_data_barang/' . $b['id_pembelian'], '<i class="fa fa-trash"></i>', 'class="btn btn-danger btn-sm"') ?>
                       </td>
                     </tr>
                   <?php

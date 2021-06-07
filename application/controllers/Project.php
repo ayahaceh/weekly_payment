@@ -50,9 +50,10 @@ class Project extends CI_Controller
 
 		$this->template->load('template', $page, $data);
 	}
+
 	public function delete_project($id)
 	{
-		$this->db->where('id_project', $id);
+		$this->db->where('id', $id);
 		$this->db->delete('project');
 		redirect('project');
 	}

@@ -13,8 +13,7 @@ class Model_pembelian extends CI_Model
     public function getData()
     {
         $this->db->select('*');
-        $this->db->from('pembelian');
-        $this->db->join('suplier', 'suplier.id_supplier = pembelian.id_supplier');
+        $this->db->from('v_faktur');
         return $this->db->get()->result_array();
     }
 
