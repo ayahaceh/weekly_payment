@@ -10,11 +10,6 @@ CodeIgniter 3
 Bootstrap (AdminLte2)
 MySql
 Php 7.x
-*******************
-Release Information
-*******************
-
-
 
 *******************
 Server Requirements
